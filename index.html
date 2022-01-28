@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Downstream</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preload" href="data/global.json" as="fetch" />
+    <link rel="preload" href="data/us.json" as="fetch" />
+    <link rel="preload" href="data/uk.json" as="fetch" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <script async src="components/country-header.js"></script>
+    <script async src="components/links-list.js"></script>
+  </head>
+  <body>
+    <p>Finished watching? Cancel your subscriptions to streaming services.</p>
+
+    <country-header id="global" icon="🌎" name="Global"></country-header>
+    <links-list src="data/global.json"></links-list>
+
+    <country-header id="us" icon="🇺🇸" name="United States"></country-header>
+    <links-list src="data/us.json"></links-list>
+
+    <country-header id="uk" icon="🇬🇧" name="United Kingdom"></country-header>
+    <links-list src="data/uk.json"></links-list>
+  </body>
+</html>

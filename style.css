@@ -1,0 +1,34 @@
+body {
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  padding: 0.25em;
+}
+
+h2 {
+  position: relative;
+  left: -1ch;
+  margin-bottom: 0;
+}
+
+h2 .icon {
+  margin-right: 0.5ch;
+}
