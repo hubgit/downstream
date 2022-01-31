@@ -18,6 +18,7 @@ class LinksList extends HTMLElement {
     }
 
     this.append(ul)
+    this.classList.add('ready')
   }
 }
 

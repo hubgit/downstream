@@ -16,6 +16,7 @@ ul {
   padding: 0;
   margin: 0;
   text-align: center;
+  font-weight: bold;
 }
 
 li a {
@@ -31,4 +32,13 @@ h2 {
 
 h2 .icon {
   margin-right: 0.5ch;
+}
+
+links-list {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+links-list.ready {
+  opacity: 1;
 }
