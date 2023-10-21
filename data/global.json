@@ -14,5 +14,9 @@
   {
     "content": "Mubi",
     "url": "https://mubi.com/subscription"
+  },
+  {
+    "content": "Audible",
+    "url": "https://www.audible.com/account/overview?cancel"
   }
 ]
